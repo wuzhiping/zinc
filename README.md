@@ -14,3 +14,4 @@ gzip -d  olympics.ndjson.gz
 
 curl http://localhost:4080/api/_bulk -i -u admin:P@ssw0rd  --data-binary "@olympics.ndjson"
 </pre>
+<img src="./593b91ece449031dbc6ea27b2ffe87c.png" />
