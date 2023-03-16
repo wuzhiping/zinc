@@ -3,6 +3,7 @@ https://docs.zinc.dev/quickstart/
 
 <pre>
 mkdir zinc
+chmod 777 zinc
 
 docker run --rm -it -v $PWD/zinc:/data -e ZINC_DATA_PATH="/data" -p 4080:4080 \
     -e ZINC_FIRST_ADMIN_USER=admin -e ZINC_FIRST_ADMIN_PASSWORD=P@ssw0rd \
